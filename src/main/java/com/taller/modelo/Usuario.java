@@ -1,0 +1,26 @@
+package com.taller.modelo;
+
+public class Usuario {
+    private int idUsuario;
+    private String username;
+    private String password;
+    private String rol;
+    private boolean requiereCambio;
+
+    public Usuario() {}
+
+    public int getIdUsuario() { return idUsuario; }
+    public void setIdUsuario(int idUsuario) { this.idUsuario = idUsuario; }
+
+    public String getUsername() { return username; }
+    public void setUsername(String username) { this.username = username; }
+
+    public String getPassword() { return password; }
+    public void setPassword(String password) { this.password = password; }
+
+    public String getRol() { return rol; }
+    public void setRol(String rol) { this.rol = rol; }
+
+    public boolean isRequiereCambio() { return requiereCambio; }
+    public void setRequiereCambio(boolean requiereCambio) { this.requiereCambio = requiereCambio; }
+}
